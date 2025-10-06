@@ -1,0 +1,729 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- <script src="https://static.readdy.ai/static/e.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow-Webdesign Video Ad Project - Transform Your Website</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#3b82f6',secondary:'#10b981'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .video-container video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .progress-circle { stroke-dasharray: 251.2; stroke-dashoffset: 251.2; transition: stroke-dashoffset 1s ease-in-out; }
+        .progress-circle.animate { animation: progressAnimation 2s ease-in-out forwards; }
+        @keyframes progressAnimation { to { stroke-dashoffset: 0; } }
+        .tag-cloud a { transition: all 0.2s ease; }
+        .tag-cloud a:hover { background: #3b82f6; color: white; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="font-['Pacifico'] text-2xl text-primary">Flow-Webdesign</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+                    <a href="#concepts" class="text-gray-700 hover:text-primary transition-colors">Creative Concepts</a>
+                    <a href="#requirements" class="text-gray-700 hover:text-primary transition-colors">Requirements</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </nav>
+                <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-blue-600 transition-colors whitespace-nowrap">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="gradient-bg text-white py-20 min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=modern%20website%20design%20transformation%20with%20clean%20minimalist%20interface%2C%20professional%20web%20development%20workspace%20with%20multiple%20screens%20showing%20before%20and%20after%20website%20designs%2C%20bright%20clean%20background%20with%20subtle%20tech%20elements%2C%20high-tech%20atmosphere%2C%20modern%20office%20environment&width=1920&height=1080&seq=hero-bg&orientation=landscape'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-purple-900/60"></div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-left">
+                        <h1 class="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                            Transform Your Outdated Website Into a 
+                            <span class="text-yellow-300">Converting Machine</span>
+                        </h1>
+                        <p class="text-xl mb-8 text-gray-200 leading-relaxed">
+                            You already have a website — but it just doesn't do it for you anymore? 
+                            We create 15-20 second video ads that showcase stunning website transformations, 
+                            delivered as fully editable DaVinci Resolve projects.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <button class="bg-yellow-400 text-gray-900 px-8 py-4 !rounded-button font-semibold hover:bg-yellow-300 transition-colors whitespace-nowrap">
+                                <div class="w-6 h-6 flex items-center justify-center mr-2 inline-flex">
+                                    <i class="ri-play-fill"></i>
+                                </div>
+                                Watch Demo Video
+                            </button>
+                            <button class="border-2 border-white text-white px-8 py-4 !rounded-button font-semibold hover:bg-white hover:text-gray-900 transition-colors whitespace-nowrap">
+                                View Portfolio
+                            </button>
+                        </div>
+                    </div>
+                    <div class="lg:flex justify-center">
+                        <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
+                            <div class="video-container rounded-xl overflow-hidden shadow-2xl">
+                                <div class="bg-gray-900 aspect-video flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="w-20 h-20 flex items-center justify-center mx-auto mb-4 bg-white/20 rounded-full">
+                                            <i class="ri-play-fill text-4xl text-white"></i>
+                                        </div>
+                                        <p class="text-white text-lg">15-20 Second Video Ad Preview</p>
+                                        <p class="text-gray-300 text-sm mt-2">Website Transformation Showcase</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-6 grid grid-cols-2 gap-4 text-sm">
+                                <div class="bg-white/10 p-3 rounded-lg">
+                                    <div class="w-6 h-6 flex items-center justify-center mb-2">
+                                        <i class="ri-aspect-ratio-line text-yellow-300"></i>
+                                    </div>
+                                    <p class="font-semibold">1080×1080</p>
+                                    <p class="text-gray-300">Square Format</p>
+                                </div>
+                                <div class="bg-white/10 p-3 rounded-lg">
+                                    <div class="w-6 h-6 flex items-center justify-center mb-2">
+                                        <i class="ri-smartphone-line text-yellow-300"></i>
+                                    </div>
+                                    <p class="font-semibold">1080×1920</p>
+                                    <p class="text-gray-300">Vertical Format</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Video Ad Services</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Professional video advertisements created entirely in DaVinci Resolve, 
+                        showcasing website transformations that convert visitors into customers.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                        <div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-xl mb-6">
+                            <i class="ri-refresh-line text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Website Redesign</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Showcase dramatic before and after transformations. 
+                            Perfect for businesses with outdated websites that need a complete visual overhaul.
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Visual transformation effects
+                            </li>
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Before/after comparisons
+                            </li>
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Conversion-focused messaging
+                            </li>
+                        </ul>
+                        <button class="w-full bg-primary text-white py-3 !rounded-button font-semibold hover:bg-blue-600 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+
+                    <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                        <div class="w-16 h-16 flex items-center justify-center bg-green-100 rounded-xl mb-6">
+                            <i class="ri-magic-line text-2xl text-secondary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Modern Updates</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Highlight small improvements with big impact. 
+                            Show how minor tweaks can dramatically improve user experience and conversions.
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Subtle animation effects
+                            </li>
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                UI/UX improvements
+                            </li>
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Performance enhancements
+                            </li>
+                        </ul>
+                        <button class="w-full bg-secondary text-white py-3 !rounded-button font-semibold hover:bg-green-600 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+
+                    <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                        <div class="w-16 h-16 flex items-center justify-center bg-purple-100 rounded-xl mb-6">
+                            <i class="ri-rocket-line text-2xl text-purple-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Full Transformation</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Complete website overhauls from concept to completion. 
+                            Perfect for businesses ready for a complete digital transformation.
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Complete brand overhaul
+                            </li>
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Advanced animations
+                            </li>
+                            <li class="flex items-center text-sm text-gray-600">
+                                <div class="w-4 h-4 flex items-center justify-center mr-3">
+                                    <i class="ri-check-line text-secondary"></i>
+                                </div>
+                                Multi-platform optimization
+                            </li>
+                        </ul>
+                        <button class="w-full bg-purple-600 text-white py-3 !rounded-button font-semibold hover:bg-purple-700 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="requirements" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Technical Specifications</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        All projects are delivered with complete DaVinci Resolve files and assets, 
+                        ensuring full editability for future modifications and translations.
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Project Requirements</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="w-6 h-6 flex items-center justify-center mt-1 mr-4 bg-green-100 rounded-full">
+                                    <i class="ri-check-line text-sm text-secondary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">100% DaVinci Resolve Creation</p>
+                                    <p class="text-gray-600 text-sm">Must be created entirely in DaVinci Resolve software</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-6 h-6 flex items-center justify-center mt-1 mr-4 bg-green-100 rounded-full">
+                                    <i class="ri-check-line text-sm text-secondary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Complete Project Files</p>
+                                    <p class="text-gray-600 text-sm">Full .dra folder or .drp file with all linked assets</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-6 h-6 flex items-center justify-center mt-1 mr-4 bg-green-100 rounded-full">
+                                    <i class="ri-check-line text-sm text-secondary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Duration: 15-20 Seconds</p>
+                                    <p class="text-gray-600 text-sm">Perfect length for social media advertising</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-6 h-6 flex items-center justify-center mt-1 mr-4 bg-green-100 rounded-full">
+                                    <i class="ri-check-line text-sm text-secondary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Editable Text Elements</p>
+                                    <p class="text-gray-600 text-sm">All text must remain editable for Dutch translation</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-6 h-6 flex items-center justify-center mt-1 mr-4 bg-green-100 rounded-full">
+                                    <i class="ri-check-line text-sm text-secondary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Royalty-Free Assets</p>
+                                    <p class="text-gray-600 text-sm">All music and media with proper licensing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Deliverables</h3>
+                        <div class="space-y-6">
+                            <div class="bg-blue-50 p-4 rounded-xl">
+                                <h4 class="font-semibold text-gray-900 mb-2">Video Formats</h4>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="text-center">
+                                        <div class="w-12 h-12 flex items-center justify-center mx-auto mb-2 bg-primary rounded-lg">
+                                            <i class="ri-aspect-ratio-line text-white"></i>
+                                        </div>
+                                        <p class="font-semibold">1080×1080</p>
+                                        <p class="text-sm text-gray-600">Square Format</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="w-12 h-12 flex items-center justify-center mx-auto mb-2 bg-primary rounded-lg">
+                                            <i class="ri-smartphone-line text-white"></i>
+                                        </div>
+                                        <p class="font-semibold">1080×1920</p>
+                                        <p class="text-sm text-gray-600">Vertical Format</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3">
+                                <div class="flex items-center">
+                                    <div class="w-6 h-6 flex items-center justify-center mr-3 bg-blue-100 rounded-full">
+                                        <i class="ri-file-line text-sm text-primary"></i>
+                                    </div>
+                                    <span class="text-gray-900">DaVinci Resolve Project (.dra or .drp)</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-6 h-6 flex items-center justify-center mr-3 bg-blue-100 rounded-full">
+                                        <i class="ri-folder-line text-sm text-primary"></i>
+                                    </div>
+                                    <span class="text-gray-900">All Media Assets (video, fonts, music, images)</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-6 h-6 flex items-center justify-center mr-3 bg-blue-100 rounded-full">
+                                        <i class="ri-play-line text-sm text-primary"></i>
+                                    </div>
+                                    <span class="text-gray-900">Rendered MP4 Preview Files</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-6 h-6 flex items-center justify-center mr-3 bg-blue-100 rounded-full">
+                                        <i class="ri-document-line text-sm text-primary"></i>
+                                    </div>
+                                    <span class="text-gray-900">Written Concept & Storyboard</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="concepts" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Creative Concepts Gallery</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Explore our innovative storytelling approaches that showcase website transformations 
+                        in engaging and memorable ways.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                        <div class="aspect-video bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=website%20transformation%20animation%20showing%20old%20outdated%20website%20design%20morphing%20into%20modern%20clean%20interface%2C%20glitch%20effects%20and%20fade%20transitions%2C%20digital%20transformation%20concept%2C%20before%20and%20after%20comparison%2C%20modern%20web%20design%20elements&width=400&height=300&seq=concept1&orientation=landscape" alt="Transformation Concept" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Transformation</h3>
+                            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                                Old website fades or glitches into a sleek, modern design. 
+                                Perfect for showing dramatic visual improvements.
+                            </p>
+                            <div class="flex items-center text-sm text-primary">
+                                <div class="w-4 h-4 flex items-center justify-center mr-2">
+                                    <i class="ri-eye-line"></i>
+                                </div>
+                                View Details
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                        <div class="aspect-video bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=empty%20online%20store%20with%20no%20customers%20transforming%20into%20busy%20e-commerce%20website%20with%20happy%20customers%20shopping%2C%20business%20growth%20visualization%2C%20customer%20return%20concept%2C%20retail%20success%20story%2C%20modern%20shopping%20experience&width=400&height=300&seq=concept2&orientation=landscape" alt="Lost Clients Concept" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Lost Clients</h3>
+                            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                                Empty store transforms into bustling business after redesign. 
+                                Shows the direct impact on customer engagement.
+                            </p>
+                            <div class="flex items-center text-sm text-primary">
+                                <div class="w-4 h-4 flex items-center justify-center mr-2">
+                                    <i class="ri-eye-line"></i>
+                                </div>
+                                View Details
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                        <div class="aspect-video bg-gradient-to-br from-yellow-400 to-red-500 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=time%20travel%20concept%20showing%202015%20outdated%20website%20design%20versus%202025%20modern%20website%20interface%2C%20calendar%20pages%20flipping%2C%20vintage%20vs%20contemporary%20web%20design%20comparison%2C%20evolution%20of%20web%20design%20over%20time&width=400&height=300&seq=concept3&orientation=landscape" alt="Time Travel Concept" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Time Travel</h3>
+                            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                                "Your website looked great in 2015... but this is 2025." 
+                                Highlights the evolution of web design standards.
+                            </p>
+                            <div class="flex items-center text-sm text-primary">
+                                <div class="w-4 h-4 flex items-center justify-center mr-2">
+                                    <i class="ri-eye-line"></i>
+                                </div>
+                                View Details
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                        <div class="aspect-video bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=website%20speed%20optimization%20visualization%20showing%20slow%20loading%20website%20transforming%20into%20fast%20responsive%20interface%2C%20speed%20indicators%20and%20performance%20metrics%2C%20happy%20users%20browsing%20quickly%2C%20website%20performance%20improvement&width=400&height=300&seq=concept4&orientation=landscape" alt="Speed Upgrade Concept" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Speed Upgrade</h3>
+                            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                                Slow loading transforms into lightning-fast experience. 
+                                Perfect for emphasizing performance improvements.
+                            </p>
+                            <div class="flex items-center text-sm text-primary">
+                                <div class="w-4 h-4 flex items-center justify-center mr-2">
+                                    <i class="ri-eye-line"></i>
+                                </div>
+                                View Details
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Evaluation Criteria</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Our video ads are evaluated based on four key criteria to ensure maximum impact and effectiveness.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="relative w-32 h-32 mx-auto mb-6">
+                            <svg class="w-32 h-32 transform -rotate-90">
+                                <circle cx="64" cy="64" r="40" stroke="#e5e7eb" stroke-width="8" fill="none"/>
+                                <circle cx="64" cy="64" r="40" stroke="#3b82f6" stroke-width="8" fill="none" 
+                                        class="progress-circle" style="stroke-dashoffset: 62.8;"/>
+                            </svg>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-blue-100 rounded-full">
+                                    <i class="ri-lightbulb-line text-2xl text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Creativity</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Fresh, unique concepts that stand out from typical website ads and capture viewer attention.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="relative w-32 h-32 mx-auto mb-6">
+                            <svg class="w-32 h-32 transform -rotate-90">
+                                <circle cx="64" cy="64" r="40" stroke="#e5e7eb" stroke-width="8" fill="none"/>
+                                <circle cx="64" cy="64" r="40" stroke="#10b981" stroke-width="8" fill="none" 
+                                        class="progress-circle" style="stroke-dashoffset: 50.24;"/>
+                            </svg>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-green-100 rounded-full">
+                                    <i class="ri-message-3-line text-2xl text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Message Clarity</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Clear communication that effectively sells website redesign services to the target audience.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="relative w-32 h-32 mx-auto mb-6">
+                            <svg class="w-32 h-32 transform -rotate-90">
+                                <circle cx="64" cy="64" r="40" stroke="#e5e7eb" stroke-width="8" fill="none"/>
+                                <circle cx="64" cy="64" r="40" stroke="#f59e0b" stroke-width="8" fill="none" 
+                                        class="progress-circle" style="stroke-dashoffset: 37.68;"/>
+                            </svg>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-yellow-100 rounded-full">
+                                    <i class="ri-movie-2-line text-2xl text-yellow-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Visual Flow</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Smooth pacing and seamless transitions that create an engaging viewing experience.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="relative w-32 h-32 mx-auto mb-6">
+                            <svg class="w-32 h-32 transform -rotate-90">
+                                <circle cx="64" cy="64" r="40" stroke="#e5e7eb" stroke-width="8" fill="none"/>
+                                <circle cx="64" cy="64" r="40" stroke="#8b5cf6" stroke-width="8" fill="none" 
+                                        class="progress-circle" style="stroke-dashoffset: 25.12;"/>
+                            </svg>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-purple-100 rounded-full">
+                                    <i class="ri-folder-settings-line text-2xl text-purple-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Project Structure</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Clean, organized files with all assets included for easy editing and future modifications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-primary text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="mb-12">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6">Ready to Transform Your Website?</h2>
+                    <p class="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
+                        Join the winning video ad campaign that will showcase your website transformation 
+                        across Facebook, Instagram, and YouTube Shorts. Get first opportunity for follow-up projects.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
+                        <div class="w-12 h-12 flex items-center justify-center mx-auto mb-4 bg-white/20 rounded-full">
+                            <i class="ri-facebook-fill text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Facebook Ads</h3>
+                        <p class="text-blue-100 text-sm">Targeted campaigns reaching businesses ready for website redesigns</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
+                        <div class="w-12 h-12 flex items-center justify-center mx-auto mb-4 bg-white/20 rounded-full">
+                            <i class="ri-instagram-fill text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Instagram Ads</h3>
+                        <p class="text-blue-100 text-sm">Visual storytelling that showcases transformation results</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
+                        <div class="w-12 h-12 flex items-center justify-center mx-auto mb-4 bg-white/20 rounded-full">
+                            <i class="ri-youtube-fill text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">YouTube Shorts</h3>
+                        <p class="text-blue-100 text-sm">Short-form content optimized for maximum engagement</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                    <button class="bg-white text-primary px-8 py-4 !rounded-button font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        <div class="w-6 h-6 flex items-center justify-center mr-2 inline-flex">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        Get Your Quote
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 !rounded-button font-semibold hover:bg-white hover:text-primary transition-colors whitespace-nowrap">
+                        <div class="w-6 h-6 flex items-center justify-center mr-2 inline-flex">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        Schedule Call
+                    </button>
+                </div>
+
+                <div class="text-center">
+                    <div class="font-['Pacifico'] text-3xl mb-2">Flow-Webdesign</div>
+                    <p class="text-2xl font-bold text-yellow-300">We Build Websites That Sell</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-4 gap-8 mb-12">
+                <div class="lg:col-span-2">
+                    <div class="font-['Pacifico'] text-2xl text-primary mb-4">Flow-Webdesign</div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Professional video advertisements showcasing website transformations. 
+                        Created entirely in DaVinci Resolve with full editability for future modifications and translations.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Website Redesign</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Modern Updates</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Full Transformation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Video Production</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Project Files</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Technical Support</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-4">Related Tags</h3>
+                    <div class="tag-cloud flex flex-wrap gap-2">
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">DaVinci Resolve</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Video Editing</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Motion Graphics</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Advertising</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Video Production</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Facebook Ads</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Instagram Ads</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Marketing Video</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Visual Storytelling</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Graphic Design</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Brand Video</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Animation</a>
+                        <a href="#" class="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full hover:bg-primary hover:text-white transition-colors">Video Commercial</a>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm">© 2025 Flow-Webdesign. All rights reserved.</p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">License Agreement</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script id="progress-animation">
+        document.addEventListener('DOMContentLoaded', function() {
+            const progressCircles = document.querySelectorAll('.progress-circle');
+            
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                    }
+                });
+            }, observerOptions);
+            
+            progressCircles.forEach(circle => {
+                observer.observe(circle);
+            });
+        });
+    </script>
+
+    <script id="smooth-scrolling">
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script id="card-interactions">
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card-hover');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                    this.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '';
+                });
+            });
+        });
+    </script>
+
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = '3nOS94rwJXlMnP5csHng7A';
+    window.host = 'readdy.ai';
+</script>
+</body>
+</html>
